@@ -1,4 +1,4 @@
-package com.sam961.card_scanner.scanner_core.models
+package com.barqapp.scan_credit_card.scanner_core.models
 
 import com.google.mlkit.vision.text.Text
 

@@ -1,4 +1,4 @@
-package com.sam961.card_scanner
+package com.barqapp.scan_credit_card
 
 import android.Manifest
 import android.animation.ObjectAnimator
@@ -20,10 +20,10 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.TextRecognizer
-import com.sam961.card_scanner.logger.debugLog
-import com.sam961.card_scanner.scanner_core.CardScanner
-import com.sam961.card_scanner.scanner_core.models.CardDetails
-import com.sam961.card_scanner.scanner_core.models.CardScannerOptions
+import com.barqapp.scan_credit_card.logger.debugLog
+import com.barqapp.scan_credit_card.scanner_core.CardScanner
+import com.barqapp.scan_credit_card.scanner_core.models.CardDetails
+import com.barqapp.scan_credit_card.scanner_core.models.CardScannerOptions
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 

@@ -9,8 +9,7 @@ export 'package:scan_credit_card/models/card_issuer.dart';
 export 'package:scan_credit_card/models/card_scan_options.dart';
 
 class CardScanner {
-  static const MethodChannel _channel =
-      const MethodChannel('sam961/card_scanner');
+  static const MethodChannel _channel = MethodChannel('barqapp/card_scanner');
   static const _scan_card = 'scan_card';
 
   static Future<CardDetails?> scanCard({CardScanOptions? scanOptions}) async {

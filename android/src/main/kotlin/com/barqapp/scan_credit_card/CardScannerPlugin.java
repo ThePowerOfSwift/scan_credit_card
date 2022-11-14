@@ -1,4 +1,4 @@
-package com.sam961.card_scanner;
+package com.barqapp.scan_credit_card;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.content.Intent;
 
 import androidx.annotation.NonNull;
 
-import com.sam961.card_scanner.scanner_core.models.CardDetails;
-import com.sam961.card_scanner.scanner_core.models.CardScannerOptions;
+import com.barqapp.scan_credit_card.scanner_core.models.CardDetails;
+import com.barqapp.scan_credit_card.scanner_core.models.CardScannerOptions;
 
 import java.util.Map;
 
@@ -32,7 +32,7 @@ public class CardScannerPlugin implements FlutterPlugin, MethodCallHandler, Acti
     /// when the Flutter Engine is detached from the Activity
     public static MethodChannel channel;
 
-    public final static String METHOD_CHANNEL_NAME = "sam961/card_scanner";
+    public final static String METHOD_CHANNEL_NAME = "barqapp.com/scan_credit_card";
     private Context context;
     private Result pendingResult;
 

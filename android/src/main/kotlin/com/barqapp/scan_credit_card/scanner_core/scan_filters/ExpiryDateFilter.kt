@@ -1,8 +1,8 @@
-package com.sam961.card_scanner.scanner_core.scan_filters
+package com.barqapp.scan_credit_card.scanner_core.scan_filters
 
 import com.google.mlkit.vision.text.Text
-import com.sam961.card_scanner.scanner_core.constants.CardScannerRegexps
-import com.sam961.card_scanner.scanner_core.models.*
+import com.barqapp.scan_credit_card.scanner_core.constants.CardScannerRegexps
+import com.barqapp.scan_credit_card.scanner_core.models.*
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.math.min

@@ -3,7 +3,7 @@ import UIKit
 
 public class SwiftCardScannerPlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "sam961/card_scanner", binaryMessenger: registrar.messenger())
+        let channel = FlutterMethodChannel(name: "barqapp/scan_credit_card", binaryMessenger: registrar.messenger())
         let instance = SwiftCardScannerPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }

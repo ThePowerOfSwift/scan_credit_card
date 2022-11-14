@@ -1,9 +1,9 @@
-package com.sam961.card_scanner.scanner_core.optimizer
+package com.barqapp.scan_credit_card.scanner_core.optimizer
 
 import android.util.Log
-import com.sam961.card_scanner.logger.debugLog
-import com.sam961.card_scanner.scanner_core.models.CardDetails
-import com.sam961.card_scanner.scanner_core.models.CardScannerOptions
+import com.barqapp.scan_credit_card.logger.debugLog
+import com.barqapp.scan_credit_card.scanner_core.models.CardDetails
+import com.barqapp.scan_credit_card.scanner_core.models.CardScannerOptions
 
 class CardDetailsScanOptimizer(private val _scannerOptions: CardScannerOptions) {
   private val _expiryDateFrequency: MutableMap<String, Int> = mutableMapOf()

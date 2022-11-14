@@ -1,4 +1,4 @@
-package com.sam961.card_scanner.scanner_core
+package com.barqapp.scan_credit_card.scanner_core
 
 import android.annotation.SuppressLint
 import android.os.CountDownTimer
@@ -6,13 +6,13 @@ import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.ImageProxy
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition
-import com.sam961.card_scanner.SingleFrameCardScanner
-import com.sam961.card_scanner.logger.debugLog
-import com.sam961.card_scanner.onCardScanFailed
-import com.sam961.card_scanner.onCardScanned
-import com.sam961.card_scanner.scanner_core.models.CardDetails
-import com.sam961.card_scanner.scanner_core.models.CardScannerOptions
-import com.sam961.card_scanner.scanner_core.optimizer.CardDetailsScanOptimizer
+import com.barqapp.scan_credit_card.SingleFrameCardScanner
+import com.barqapp.scan_credit_card.logger.debugLog
+import com.barqapp.scan_credit_card.onCardScanFailed
+import com.barqapp.scan_credit_card.onCardScanned
+import com.barqapp.scan_credit_card.scanner_core.models.CardDetails
+import com.barqapp.scan_credit_card.scanner_core.models.CardScannerOptions
+import com.barqapp.scan_credit_card.scanner_core.optimizer.CardDetailsScanOptimizer
 
 
 class CardScanner(private val scannerOptions: CardScannerOptions, private val onCardScanned: onCardScanned, private val onCardScanFailed: onCardScanFailed) : ImageAnalysis.Analyzer {

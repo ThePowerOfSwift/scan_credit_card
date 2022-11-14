@@ -1,4 +1,4 @@
-package com.sam961.card_scanner.scanner_core.constants
+package com.barqapp.scan_credit_card.scanner_core.constants
 
 abstract class CardScannerRegexps {
   companion object {

@@ -1,4 +1,4 @@
-// @author sam961 created on 30,June,2020
+// @author barqapp created on 30,June,2020
 
 import 'package:scan_credit_card/utils.dart';
 

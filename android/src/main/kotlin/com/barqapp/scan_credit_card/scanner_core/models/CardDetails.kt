@@ -1,9 +1,9 @@
-package com.sam961.card_scanner.scanner_core.models
+package com.barqapp.scan_credit_card.scanner_core.models
 
 import android.os.Parcel
 import android.os.Parcelable
 
-//@author sam961 created on 27,June,2020
+//@author barqapp created on 27,June,2020
 
 data class CardDetails(
         val cardNumber: String,

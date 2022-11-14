@@ -1,8 +1,8 @@
 name: scan_credit_card
 description: Fast, Accurate and Secure Credit & Debit card scanning library for flutter.
-version: 0.0.2
-homepage: https://github.com/sam961/scan_credit_card
-repository: https://github.com/sam961/scan_credit_card
+version: 0.0.3
+homepage: https://github.com/barqapp/scan_credit_card
+repository: https://github.com/barqapp/scan_credit_card
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
@@ -36,10 +36,10 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.sam961.card_scanner.scanner
-        pluginClass: ScanCreditCardPlugin
+        package: com.barqapp.scan_credit_card
+        pluginClass: CardScannerPlugin
       ios:
-        pluginClass: ScanCreditCardPlugin
+        pluginClass: SwiftCardScannerPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

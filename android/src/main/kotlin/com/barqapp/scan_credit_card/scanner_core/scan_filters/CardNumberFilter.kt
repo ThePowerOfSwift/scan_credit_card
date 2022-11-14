@@ -1,11 +1,11 @@
-package com.sam961.card_scanner.scanner_core.scan_filters
+package com.barqapp.scan_credit_card.scanner_core.scan_filters
 
 import com.google.mlkit.vision.text.Text
-import com.sam961.card_scanner.logger.debugLog
-import com.sam961.card_scanner.scanner_core.constants.CardScannerRegexps
-import com.sam961.card_scanner.scanner_core.models.CardNumberScanResult
-import com.sam961.card_scanner.scanner_core.models.CardScannerOptions
-import com.sam961.card_scanner.scanner_core.models.ScanFilter
+import com.barqapp.scan_credit_card.logger.debugLog
+import com.barqapp.scan_credit_card.scanner_core.constants.CardScannerRegexps
+import com.barqapp.scan_credit_card.scanner_core.models.CardNumberScanResult
+import com.barqapp.scan_credit_card.scanner_core.models.CardScannerOptions
+import com.barqapp.scan_credit_card.scanner_core.models.ScanFilter
 
 class CardNumberFilter(visionText: Text, scannerOptions: CardScannerOptions) : ScanFilter(visionText, scannerOptions) {
   private val cardNumberRegex: Regex = Regex(CardScannerRegexps.cardNumberRegex, RegexOption.MULTILINE)

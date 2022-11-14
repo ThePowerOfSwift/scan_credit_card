@@ -1,11 +1,11 @@
-package com.sam961.card_scanner.scanner_core.scan_filters
+package com.barqapp.scan_credit_card.scanner_core.scan_filters
 
 import android.util.Log
 import com.google.mlkit.vision.text.Text
-import com.sam961.card_scanner.logger.debugLog
-import com.sam961.card_scanner.scanner_core.constants.CardHolderNameConstants
-import com.sam961.card_scanner.scanner_core.constants.CardScannerRegexps
-import com.sam961.card_scanner.scanner_core.models.*
+import com.barqapp.scan_credit_card.logger.debugLog
+import com.barqapp.scan_credit_card.scanner_core.constants.CardHolderNameConstants
+import com.barqapp.scan_credit_card.scanner_core.constants.CardScannerRegexps
+import com.barqapp.scan_credit_card.scanner_core.models.*
 import java.util.*
 import kotlin.math.max
 import kotlin.math.min
