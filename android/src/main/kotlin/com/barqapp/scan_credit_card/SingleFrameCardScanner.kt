@@ -1,4 +1,4 @@
-package com.barqapp.scan_credit_card
+package android.src.main.kotlin.com.barqapp.scan_credit_card;
 
 import com.google.mlkit.vision.text.Text
 import com.barqapp.scan_credit_card.scanner_core.models.CardDetails
